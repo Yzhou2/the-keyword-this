@@ -48,7 +48,9 @@ user.getUsername(); //Next Problem
     this.year = year;
     this.move = 0;
     this.moveCar = function() {
-      this.move =+ 10;
+      console.log(this.move)
+      this.move += 10;
+      return this.move;
     }
   }//Function Invocations Here
 
